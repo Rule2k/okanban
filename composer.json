@@ -1,0 +1,21 @@
+{
+    "name": "benoclock/okanban",
+    "description": "Framework des etudiants Oclock",
+    "type": "library",
+    "authors": [
+        {
+            "name": "benoclock",
+            "email": "benjamin@oclock.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "altorouter/altorouter": "^1.2",
+        "symfony/var-dumper": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "okanban\\": "app/"
+        }
+    }
+}
